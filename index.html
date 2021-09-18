@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <title>Alauddin-Taras</title>
+    <title>Alauddin-Sabari</title>
     <script>
         $(function() {
 
@@ -56,7 +56,7 @@
         }
         
         iframe {
-            border: 6px solid rgb(219, 94, 146);
+            border: 6px solid rgb(234, 227, 255);
             width: 100%;
             height: 100%;
             display: block;
@@ -73,31 +73,41 @@
 
 <body>
     <!-- Navbar  -->
-    <nav class="navbar fixed-top navbar-expand-lg k navbar-light text-light" style=" background-color: #FF00B8;">
+    <nav class="navbar fixed-top navbar-expand-lg k navbar-light text-light" style=" background-color: #0d0e4b;">
         <div class="container-fluid ">
             <a href="" class="btn btn-outline-primary py-2" style=" color: white;"><i class="fas fa-disease"></i><strong>
-                Alauddin-Taras</strong></a>
+                Alauddin Sabari</strong></a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
      <span class="navbar-toggler-icon"></span>
    </button>
 
+
+
+
+
             <div class="collapse navbar-collapse py-2 pr-5" id="navmenu">
                 <!-- <ul class="navbar-nav ms-auto   ml-auto mr-2"> -->
                 <ul class="navbar-nav ms-auto    mr-2">
+
+
+                    <li class="nav-item dropdown">
+                        <span><a href="#pandas" class="nav-item btn  border-bottom text-light " style='font-weight: bold; ' ><i class="fab fa-github-alt"></i> Pandas </a></span>
+                        <!-- <span class="border border-left-5 ml-3"> -->
+                    </li>
 
                     <li>
                         <div class="dropdown ml-auto text-bold ">
                             <button class="btn btn-outline-primary text-light dropdown-toggle mr-2 " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style='font-weight: bold; '>
                                 <i class=" fab  fa-python" role="presentation"
-                                aria-label=" icon"></i> Venn Diagram
+                                aria-label=" icon"></i> My certificate
                         </button>
                             <ul class="dropdown-menu bg-info text-bold" aria-labelledby="dropdownMenuButton1">
-                                <li><a onclick="toggleHide('#demo ')" class="dropdown-item " href="https://nbviewer.jupyter.org/github/alauddin-sabari/obesity-psychiatric/blob/master/notebook/Obesity-others.ipynb" target='notebook'>Obesity-Psychiatric</a></li>
-                                <li><a onclick="toggleHide('#demo ')" class="dropdown-item " href="https://nbviewer.jupyter.org/github/alauddin-sabari/obesity-psychiatric/blob/master/notebook/Obesity_Bipolar.ipynb" target='notebook'>Obesity-BD</a></li>
-                                <li><a onclick="toggleHide('#demo ')" class="dropdown-item " href="https://nbviewer.jupyter.org/github/alauddin-sabari/obesity-psychiatric/blob/master/notebook/Obesity_MD.ipynb" target='notebook'>Obesity-MD</a></li>
+                                <li><a onclick="toggleHide('#demo ')" class="dropdown-item " href="https://www.udemy.com/certificate/UC-44f37869-a8e8-4681-b5b6-fbe988deebbc/" target='notebook'>Pandas</a></li>
+                                <li><a onclick="toggleHide('#demo ')" class="dropdown-item " href="https://www.coursera.org/account/accomplishments/verify/FEDXXGN2MJNK" target='notebook'>Python</a></li>
+                                <!-- <li><a onclick="toggleHide('#demo ')" class="dropdown-item " href="https://nbviewer.jupyter.org/github/alauddin-sabari/obesity-psychiatric/blob/master/notebook/Obesity_MD.ipynb" target='notebook'>Obesity-MD</a></li>
                                 <li><a onclick="toggleHide('#demo ')" class="dropdown-item " href="https://nbviewer.jupyter.org/github/alauddin-sabari/obesity-psychiatric/blob/master/notebook/Obesity_PTSD.ipynb" target='notebook'>Obesity-PTSD</a></li>
-                                <li><a onclick="toggleHide('#demo ')" class="dropdown-item " href="https://nbviewer.jupyter.org/github/alauddin-sabari/obesity-psychiatric/blob/master/notebook/Obesity_SCZ_.ipynb" target='notebook'>Obesity-SCZ</a></li>
+                                <li><a onclick="toggleHide('#demo ')" class="dropdown-item " href="https://nbviewer.jupyter.org/github/alauddin-sabari/obesity-psychiatric/blob/master/notebook/Obesity_SCZ_.ipynb" target='notebook'>Obesity-SCZ</a></li> -->
 
 
                             </ul>
@@ -113,8 +123,13 @@
 
     <iframe id="demo" style="width: 100%; height: 100%; display: none;" src="" name='notebook'></iframe>
 
+
+    <br>
+
+
+
     <!-- Showcase -->
-    <section class="bg-danger text-light p-5  pt-lg-5 text-center text-sm-start">
+    <section class="bg-secondary text-light p-5  pt-lg-5  text-center text-sm-start">
         <!--text-sm-start mane sm screen er ag porjonto start a hobe text sm breackpoint er kom hole  center -->
         <!-- under small screen text goes to center-->
         <div class="container">
@@ -129,13 +144,18 @@
         Search Gene on search box below..
       </button>
                 </div>
-                <img class="img-fluid w-50 d-none d-sm-block" src="icon/immune.svg" alt="" />
+                <img class="img-fluid w-100 d-none d-sm-block" src="icon/Data processing.svg" alt="" />
                 <!-- d-none thakle kono scrren ei show hobena | pore d-sm-block means under small screen a image will not show -->
             </div>
         </div>
     </section>
     <!-- ---------------------------------------- -->
 
+    <!-- Pandas-->
+    <!-- this pandas files has it's own iframe -->
+    <iframe id='pandas' style="width: 100%; height: 100%x; position:center;" src="pandas.html"></iframe>
+
+    <iframe id='pandas' style="width: 100%; height: 100%x; position:;" src="notebook/pandas/pandas/pandas_plotly1.html"></iframe>
 
 
     <!-- Search Bar -->
@@ -244,87 +264,10 @@
     </section>
 
 
-    <!-- <iframe src="https://nbviewer.jupyter.org/github/alauddin-sabari/DataWork/blob/master/pandas.ipynb" style="width:100%; height:100%; display:none;" onLoad="calcHeight();"></iframe>
+    <!-- <iframe src="https://nbviewer.jupyter.org/github/alauddin-sabari/DataWork/blob/master/pandas.ipynb" style="width:100%; height:100%; display:none;" onLoad="calcHeight();"></iframe> -->
 
-    <iframe style="width: 100%; height: 100%;" src="" name='search'></iframe> -->
+    <!-- <iframe style="width: 100%; height: 100%;" src="" name='search'></iframe> -->
 
-
-    <!-- <div class='bg-warnig my-5 ' style='width:30px;'> <a href="" class='display-block'>Line Chart</a> </div>
-    <section class="p-5 bg-primary my-3">
-        <div class="container">
-            <h2 class="text-center text-white">Project Contributors</h2>
-            <p class="lead text-center text-white mb-5">
-                Our instructors all have 5+ years working as a web developer in the industry
-            </p>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-3">
-                    <div class="card bg-light">
-                        <div class="card-body text-center">
-                            <img src="https://media-exp1.licdn.com/dms/image/C5103AQE4Nc_QS9BO0Q/profile-displayphoto-shrink_200_200/0/1540992788872?e=1632960000&v=beta&t=06cTzIH3SO1VN2Xw2F8oiCDHE3SUCDYt8mqEuDf3HjA" style='width: 120px; height: 130px;' class="rounded-circle mb-3"
-                                alt="" />
-                            <h4 class="card-title mb-3" style='font-size: 33px;'>Habibur Rahman</h4>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                            </p>
-                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-3">
-                    <div class="card bg-light">
-                        <div class="card-body text-center">
-                            <img src="https://s3.amazonaws.com/peerj_prod_upload/images/profile/m%2Fo%2Fnj6sBFyVjiB7Ft4EUC-64A%3D%3D%2Fi200_5c41244c97c564.38124102.jpeg" style='width: 120px; height: 130px;' class="rounded-circle mb-3" alt="" />
-                            <h3 class="card-title mb-3">Mohammad Ali</h3>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                            </p>
-                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-3">
-                    <div class="card bg-light">
-                        <div class="card-body text-center">
-                            <img src="data:image/jpeg;base64,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"
-                                style='width: 120px; height: 130px;' class="rounded-circle mb-3" alt="" />
-                            <h3 class="card-title mb-3">Zahidul Islam</h3>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                            </p>
-                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-3">
-                    <div class="card bg-light">
-                        <div class="card-body text-center">
-                            <img src="https://i1.rgstatic.net/ii/profile.image/1003008154427395-1616147187574_Q512/Alauddin-Sabari.jpg" style='width: 120px; height: 130px;' class="rounded-circle mb-3" alt="" />
-                            <h3 class="card-title mb-3">Alauddin Sabari</h3>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                            </p>
-                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Contact & Map -->
     <section id="instructors" class="p-5">
